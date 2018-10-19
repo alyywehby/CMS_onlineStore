@@ -106,15 +106,13 @@ body {
 .product-name a h4{
     font-size: 15px;
     color: black;
-    text-decoration: none;
+
     font-style: normal;
     white-space: nowrap;
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.product-name a :hover{
-    color: black;
-    text-decoration: none;
+a :hover{
     font-weight: bold;
 }

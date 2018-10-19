@@ -78,7 +78,7 @@ $activepage='home';
                         <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
                     </div>
                     <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
+                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4 style="color: blue">Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
                     </div>
                     <div class="product-price">
                         <p>Price</p>
