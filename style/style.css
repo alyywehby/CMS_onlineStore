@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    background-color: #fcf9f7;
+}
+
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+    clear: both;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #E6E6E6;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: #E6E6E6;
+}
+/*navbar Style*/
+.navbar-inverse {
+    background-color: #E6E6E6;
+    border-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+}
+/*Left Logo Style*/
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-weight: bold;
+}
+/*Left Logo Style On Hover*/
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: black;
+
+}
+/*Active menu Style*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: #d1d1d1;
+    font-weight: bolder;
+}
+/*Menu color of non active*/
+.navbar-inverse .navbar-nav>li>a {
+    color: Black;
+}
+/*Menu hover*/
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+    background-color: transparent;
+    font-weight: bolder;
+}
+/*Categories Drop Menu*/
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: black;
+    background-color: #E6E6E6;
+    font-weight: bolder;
+}
+/*About Page*/
+.aboutusDes{
+    text-align: center;
+    padding: 5%;
+}
+.employee{
+    margin: 10px;
+    padding: 10px;
+}
+.employees-details{
+    text-align: center;
+    padding-bottom: 20px;
+}
+/*Products in the home page*/
+.product-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.product{
+    text-align: center;
+}
+.product-details{
+    margin: 10px;
+    padding: 5px;
+    border: 0.5px darkgray dashed;
+}
+.product-name a h4{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-name a :hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
