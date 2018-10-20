@@ -16,25 +16,18 @@ body {
     min-height: 100%;
     background-color: #fcf9f7;
 }
-
-
-/**
- * Footer Styles
- */
-
+/*Footer Style*/
 .footer {
-    clear: both;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
     background-color: #E6E6E6;
-    text-align: center;
     display: flex;
     justify-content: space-between;
 }
-
+/*Header Style Nav-Bar*/
 .header{
     background-color: #E6E6E6;
 }
@@ -51,7 +44,7 @@ body {
     font-weight: bold;
 }
 /*Left Logo Style On Hover*/
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+.navbar-brand:focus, .navbar-brand:hover {
     color: black;
 
 }
@@ -65,31 +58,33 @@ body {
 .navbar-inverse .navbar-nav>li>a {
     color: Black;
 }
-/*Menu hover*/
+/*Menu hover of non active*/
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
     color: black;
     background-color: transparent;
     font-weight: bolder;
 }
-/*Categories Drop Menu*/
+/*Categories Dropdown Menu*/
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
     color: black;
     background-color: #E6E6E6;
     font-weight: bolder;
 }
+
 /*About Page*/
 .aboutusDes{
     text-align: center;
     padding: 5%;
 }
-.employee{
-    margin: 10px;
-    padding: 10px;
-}
 .employees-details{
     text-align: center;
     padding-bottom: 20px;
 }
+.employee{
+    margin: 10px;
+    padding: 10px;
+}
+
 /*Products in the home page*/
 .product-list{
     margin-top: 20px;
@@ -106,7 +101,6 @@ body {
 .product-name a h4{
     font-size: 15px;
     color: black;
-
     font-style: normal;
     white-space: nowrap;
     width: 100%;

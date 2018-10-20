@@ -33,7 +33,7 @@ $activepage='aboutus';
         </div>
     </div>
     <div class="col-md-12">
-            <!--Images Size: 768x960-->
+            <!--Images Size: 768px*960px-->
             <div class="col-md-4 employees-details">
                 <div class="employee">
                     <img src="imgs/aliwehbi.jpg" class="img-thumbnail" alt="Ali Wehbi" width="75%">

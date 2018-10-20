@@ -72,13 +72,13 @@ $activepage='home';
             </div>
         </div>
         <div class="row product-list">
-            <div class="col-sm-3 product">
+            <div class="col-sm-2 product">
                 <div class="product-details">
                     <div class="img-thumbnail">
                         <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
                     </div>
                     <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4 style="color: blue">Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
+                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA dfgfdgfd gdfg df gdf gdf gdf gdfg df gdf gdf gdf gdf gdf g"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA dfgfdgfd gdfg df gdf gdf gdf gdfg df gdf gdf gdf gdf gdf g</h4></a>
                     </div>
                     <div class="product-price">
                         <p>Price</p>
@@ -88,23 +88,7 @@ $activepage='home';
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
-                    </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
-                    </div>
-                    <div class="product-price">
-                        <p>Price</p>
-                    </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3 product">
+            <div class="col-sm-2 product">
                 <div class="product-details">
                     <div class="img-thumbnail">
                         <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
@@ -120,7 +104,7 @@ $activepage='home';
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 product">
+            <div class="col-sm-2 product">
                 <div class="product-details">
                     <div class="img-thumbnail">
                         <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
@@ -136,7 +120,7 @@ $activepage='home';
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 product">
+            <div class="col-sm-2 product">
                 <div class="product-details">
                     <div class="img-thumbnail">
                         <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
@@ -152,7 +136,7 @@ $activepage='home';
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 product">
+            <div class="col-sm-2 product">
                 <div class="product-details">
                     <div class="img-thumbnail">
                         <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
@@ -168,7 +152,7 @@ $activepage='home';
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 product">
+            <div class="col-sm-2 product">
                 <div class="product-details">
                     <div class="img-thumbnail">
                         <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
@@ -184,7 +168,23 @@ $activepage='home';
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 product">
+            <div class="col-sm-2 product">
+                <div class="product-details">
+                    <div class="img-thumbnail">
+                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
+                    </div>
+                    <div class="product-name">
+                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
+                    </div>
+                    <div class="product-price">
+                        <p>Price</p>
+                    </div>
+                    <div class="product-add-to-cart">
+                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 product">
                 <div class="product-details">
                     <div class="img-thumbnail">
                         <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
