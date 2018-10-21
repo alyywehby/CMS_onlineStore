@@ -88,118 +88,35 @@ $activepage='home';
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
+            <?php require_once 'config.php';
+            $query = "SELECT * FROM `products`";
+
+            $result = mysqli_query($link, $query);
+
+            if(!$result)
+                echo mysqli_error($link);
+            else{
+                while ($row = mysqli_fetch_array($result)){
+                    echo "<div class='col-sm-2 product'>
+                <div class='product-details'>
+                    <div class='img-thumbnail'>
+                        <a href='#'><img src=" . $row['productImage'] . "alt='' width=\"75%\"></a>
                     </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
+                    <div class='product-name'>
+                        <a href='#' title=" . $row['productName'] . "><h4>" . $row['productName'] . "</h4></a>
                     </div>
-                    <div class="product-price">
-                        <p>Price</p>
+                    <div class='product-price'>
+                        <p>" . $row['productPrice'] . "$</p>
                     </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
-                    </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
-                    </div>
-                    <div class="product-price">
-                        <p>Price</p>
-                    </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
+                    <div class='product-add-to-cart'>
+                        <a href='#'><span class='glyphicon glyphicon-shopping-cart'></span> Add To Cart</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-2 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
-                    </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
-                    </div>
-                    <div class="product-price">
-                        <p>Price</p>
-                    </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
-                    </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
-                    </div>
-                    <div class="product-price">
-                        <p>Price</p>
-                    </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
-                    </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
-                    </div>
-                    <div class="product-price">
-                        <p>Price</p>
-                    </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
-                    </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
-                    </div>
-                    <div class="product-price">
-                        <p>Price</p>
-                    </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
-                    </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA</h4></a>
-                    </div>
-                    <div class="product-price">
-                        <p>Price</p>
-                    </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
-                    </div>
-                </div>
-            </div>
+            </div>";
+                }
+            }
+            echo "Welcome";
+            ?>
         </div>
     </div>
 

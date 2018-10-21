@@ -44,7 +44,7 @@ body {
     font-weight: bold;
 }
 /*Left Logo Style On Hover*/
-.navbar-brand:focus, .navbar-brand:hover {
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
     color: black;
 
 }
@@ -56,7 +56,7 @@ body {
 }
 /*Menu color of non active*/
 .navbar-inverse .navbar-nav>li>a {
-    color: Black;
+    color: black;
 }
 /*Menu hover of non active*/
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
