@@ -96,7 +96,7 @@ body {
 .product-details{
     margin: 10px;
     padding: 5px;
-    border: 0.5px darkgray dashed;
+    border: 0.5px darkgray solid;
 }
 .product-name a h4{
     font-size: 15px;

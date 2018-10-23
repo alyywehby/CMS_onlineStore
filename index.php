@@ -36,6 +36,7 @@ $activepage='home';
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
+                        <!--Image Size 1200px*400px-->
                         <img src="https://wpblink.com/sites/default/files/wallpaper/sports/73637/david-silva-wallpapers-hd-73637-4298222.png" alt="Chania" style="width: 100%">
                         <div class="carousel-caption">
                             <h3>First Image</h3>
@@ -44,6 +45,7 @@ $activepage='home';
                     </div>
 
                     <div class="item">
+                        <!--Image Size 1200px*400px-->
                         <img src="https://wpblink.com/sites/default/files/wallpaper/sports/73637/david-silva-wallpapers-hd-73637-4298222.png" alt="Chicago" style="width: 100%">
                         <div class="carousel-caption">
                             <h3>Second Image</h3>
@@ -52,6 +54,7 @@ $activepage='home';
                     </div>
 
                     <div class="item">
+                        <!--Image Size 1200px*400px-->
                         <img src="https://wpblink.com/sites/default/files/wallpaper/sports/73637/david-silva-wallpapers-hd-73637-4298222.png" alt="New York" style="width: 100%">
                         <div class="carousel-caption">
                             <h3>Third Image</h3>
@@ -72,24 +75,11 @@ $activepage='home';
             </div>
         </div>
         <div class="row product-list">
-            <div class="col-sm-2 product">
-                <div class="product-details">
-                    <div class="img-thumbnail">
-                        <a href="#"><img src="imgs/facebookLogo.png" alt="Ali Wehbi" width="75%"></a>
-                    </div>
-                    <div class="product-name">
-                        <a href="#" title="Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA dfgfdgfd gdfg df gdf gdf gdf gdfg df gdf gdf gdf gdf gdf g"><h4>Lenovo y700 i7 12GB RAM 1TB HDD 6GB VGA dfgfdgfd gdfg df gdf gdf gdf gdfg df gdf gdf gdf gdf gdf g</h4></a>
-                    </div>
-                    <div class="product-price">
-                        <p>Price</p>
-                    </div>
-                    <div class="product-add-to-cart">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
-                    </div>
-                </div>
+            <div class="col-sm-12">
+                <h3 style="border-bottom: 1px solid #ddd; padding-bottom: 5px;">Latest Product</h3>
             </div>
             <?php require_once 'config.php';
-            $query = "SELECT * FROM `products`";
+            $query = "SELECT * FROM `products` order by productID DESC LIMIT 20";
 
             $result = mysqli_query($link, $query);
 
@@ -100,22 +90,21 @@ $activepage='home';
                     echo "<div class='col-sm-2 product'>
                 <div class='product-details'>
                     <div class='img-thumbnail'>
-                        <a href='#'><img src=" . $row['productImage'] . "alt='' width=\"75%\"></a>
+                        <a href='#'><img src='" . $row['productImage'] . "'alt='' width='100%'></a>
                     </div>
                     <div class='product-name'>
-                        <a href='#' title=" . $row['productName'] . "><h4>" . $row['productName'] . "</h4></a>
+                        <a href='#' title='" . $row['productName'] . "'><h4>" . $row['productName'] . "</h4></a>
                     </div>
                     <div class='product-price'>
                         <p>" . $row['productPrice'] . "$</p>
                     </div>
                     <div class='product-add-to-cart'>
-                        <a href='#'><span class='glyphicon glyphicon-shopping-cart'></span> Add To Cart</a>
+                        <a href='#' onclick=''><span class='glyphicon glyphicon-shopping-cart'></span> Add To Cart</a>
                     </div>
                 </div>
             </div>";
                 }
             }
-            echo "Welcome";
             ?>
         </div>
     </div>

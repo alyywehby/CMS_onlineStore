@@ -18,7 +18,7 @@
     <!-- My Modified Stylesheet -->
     <link rel="stylesheet" href="../style/adminStyle.css" type="text/css">
 
-    <title>Hoops Club :: Login</title>
+    <title>Admin Login</title>
 </head>
 
 <body>
@@ -41,7 +41,7 @@
                         <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
                     </div>
                     <div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" onclick="" class="btn btn-default">Submit</button>
                     </div>
                 </form>
             </div>

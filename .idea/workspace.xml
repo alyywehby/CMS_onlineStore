@@ -1,10 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5dc5724-3a2a-459b-a848-177334ab6ac4" name="Default Changelist" comment="">
+    <list default="true" id="bb063bb4-aea7-4e10-b422-e576d55cd446" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrapDateTimePicker/css/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrapDateTimePicker/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrapDateTimePicker/js/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrapDateTimePicker/less/_bootstrap-datetimepicker.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrapDateTimePicker/less/bootstrap-datetimepicker-build.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrapDateTimePicker/sass/_bootstrap-datetimepicker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/bootstrapDateTimePicker/sass/bootstrap-datetimepicker-build.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/chartist/css/chartist.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/chartist/js/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/fullCalendar/css/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/fullCalendar/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jquery/jquery-3.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/css/buttons.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/css/dataTables.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/css/responsive.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/js/buttons.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/js/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/js/dataTables.buttons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/js/dataTables.responsive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/jqueryDatatables/js/responsive.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/css/font/summernote.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/css/font/summernote.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/css/font/summernote.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/css/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/js/summernote.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-ar-AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-bg-BG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-ca-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-cs-CZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-da-DK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-es-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-es-EU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-fa-IR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-fi-FI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-fr-FR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-gl-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-he-IL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-hr-HR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-hu-HU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-id-ID.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-it-IT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-ja-JP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-ko-KR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-lt-LT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-lt-LV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-nb-NO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-nl-NL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-pt-PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-ro-RO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-sk-SK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-sl-SI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-sr-RS-Latin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-sr-RS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-th-TH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-tr-TR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-uk-UA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-vi-VN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/plugins/summerNote/lang/summernote-zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/drive-download-20181009T155641Z-001.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/drive-download-20181009T155641Z-001/Capture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/drive-download-20181009T155641Z-001/Capture1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/69159855-hd-1920x1080-wallpapers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/laptop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/laptop2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includers/dashboardHeader.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/dashboardStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/dashboardStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,160 +136,58 @@
     <session id="-1523251429">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
-          <entry key="html" value="4" />
-          <entry key="php" value="25" />
-          <entry key="rnc" value="1" />
+          <entry key="html" value="1" />
+          <entry key="jpg" value="5" />
+          <entry key="php" value="2" />
+          <entry key="png" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="4" />
-          <entry key="PHP" value="25" />
-          <entry key="RNG Compact" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="8" />
+          <entry key="PHP" value="2" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="1989" />
-          <entry key="php" value="4082" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="1989" />
-          <entry key="PHP" value="4082" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.php.new.class" />
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.edit" />
       <usages-collector id="statistics.php.rename.constructor" />
-      <usages-collector id="statistics.php.new.test" />
-      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.file.types.edit" />
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.new.test" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/dashboardStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="258" selection-start-line="258" selection-end-line="258" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includers/dashboardHeader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="106" column="20" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includers/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="391">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>100%</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="af006091-50e2-4df1-8ac3-83d651568d1d" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/includers/footer.php" />
-        <option value="$PROJECT_DIR$/contactus.php" />
-        <option value="$PROJECT_DIR$/admin/login.php" />
-        <option value="$PROJECT_DIR$/includers/header.php" />
-        <option value="$PROJECT_DIR$/aboutus.php" />
-        <option value="$PROJECT_DIR$/style/style.css" />
-        <option value="$PROJECT_DIR$/style/dashboardStyle.css" />
         <option value="$PROJECT_DIR$/admin/main.php" />
-        <option value="$PROJECT_DIR$/includers/dashboardHeader.php" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -189,7 +206,6 @@
     <option name="width" value="1750" />
     <option name="height" value="985" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -202,6 +218,29 @@
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -211,11 +250,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,35 +270,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a5dc5724-3a2a-459b-a848-177334ab6ac4" name="Default Changelist" comment="" />
-      <created>1539679478766</created>
+      <changelist id="bb063bb4-aea7-4e10-b422-e576d55cd446" name="Default Changelist" comment="" />
+      <created>1540234588954</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1539679478766</updated>
-      <workItem from="1539679480092" duration="12088000" />
-      <workItem from="1539704672044" duration="16092000" />
-      <workItem from="1539758702411" duration="3778000" />
-      <workItem from="1539782838766" duration="5119000" />
-      <workItem from="1539845622337" duration="73000" />
-      <workItem from="1539848129843" duration="408000" />
-      <workItem from="1539854236160" duration="8290000" />
-      <workItem from="1539876729929" duration="10093000" />
-      <workItem from="1539968308965" duration="928000" />
-      <workItem from="1539986676471" duration="2375000" />
-      <workItem from="1540026113932" duration="7823000" />
-      <workItem from="1540049510396" duration="6632000" />
-      <workItem from="1540117901411" duration="2384000" />
+      <updated>1540234588954</updated>
+      <workItem from="1540234592329" duration="1423000" />
+      <workItem from="1540276826092" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76083000" />
+    <option name="totallyTimeSpent" value="1436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -274,8 +298,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3282123" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -286,163 +310,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../carouselexample/css/half-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../weekthree/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_prestashop_1.7.2.1.zip/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3009" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_opensourcepos-master.zip/opensourcepos-master/application/views/login.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_opensourcepos-master.zip/opensourcepos-master/application/views/home.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_opensourcepos-master.zip/opensourcepos-master/application/views/sales/receipt.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_opensourcepos-master.zip/opensourcepos-master/application/views/partial/header.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_opensourcepos-master.zip/opensourcepos-master/application/core/MY_Lang.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_opensourcepos-master.zip/opensourcepos-master/application/controllers/Home.php" />
-    <entry file="file://$PROJECT_DIR$/aboutus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/adminStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="24" column="1" selection-start-line="19" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includers/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="112" selection-start-line="36" selection-start-column="112" selection-end-line="36" selection-end-column="112" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contactus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" lean-forward="true" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/admin/test.html" />
+    <entry file="file://$PROJECT_DIR$/admin/imgs/products/laptop2.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sidebar/SideBarDashboard-master/assets/plugins/fullCalendar/css/fullcalendar.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/admin/imgs/products/laptop.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/admin/imgs/products/LogitechG203GamingMouse.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Compressed/sidebar/sidebar/bootstrap-3/style4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="257" column="1" lean-forward="true" selection-end-line="258" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/admin/imgs/products/iphonex.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includers/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Compressed/sidebar/sidebar/bootstrap-3/index4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="122" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sidebar/SideBarDashboard-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="29" selection-end-line="142" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="106" column="20" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/admin/imgs/products/lenovoy700.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/dashboardStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="258" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includers/dashboardHeader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+        <state relative-caret-position="391">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
