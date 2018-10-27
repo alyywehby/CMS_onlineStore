@@ -90,7 +90,7 @@ $activepage='home';
                     echo "<div class='col-sm-2 product'>
                 <div class='product-details'>
                     <div class='img-thumbnail'>
-                        <a href='#'><img src='" . $row['productImage'] . "'alt='' width='100%'></a>
+                        <a href='admin/" . $row['productImage'] . "'><img src='admin/" . $row['productImage'] . "'alt='' width='100%'></a>
                     </div>
                     <div class='product-name'>
                         <a href='#' title='" . $row['productName'] . "'><h4>" . $row['productName'] . "</h4></a>

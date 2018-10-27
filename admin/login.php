@@ -28,7 +28,7 @@
                 <!--                Empty div to align the content in the center of the screen-->
             </div>
             <div class="col-xs-6 loginContent">
-                <form action="main.php" method="post">
+                <form action="dashboard.php" method="post">
                     <div class="customImage">
                         <img src="../imgs/main%20logo%20new.png" alt="Gadgets Garage Logo" width="30%" height="30%">
                     </div>
