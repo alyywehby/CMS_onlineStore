@@ -28,17 +28,17 @@
                 <!--                Empty div to align the content in the center of the screen-->
             </div>
             <div class="col-xs-6 loginContent">
-                <form action="dashboard.php" method="post">
+                <form action="loginaction.php" method="post">
                     <div class="customImage">
                         <img src="../imgs/main%20logo%20new.png" alt="Gadgets Garage Logo" width="30%" height="30%">
                     </div>
                     <div class="form-group">
                         <label for="usr">Username:</label>
-                        <input type="text" class="form-control" id="usr" placeholder="Enter username" name="usr">
+                        <input type="text" class="form-control" id="usr" placeholder="Enter username" name="username">
                     </div>
                     <div class="form-group">
                         <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password">
                     </div>
                     <div>
                         <button type="submit" onclick="" class="btn btn-default">Submit</button>

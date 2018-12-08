@@ -20,6 +20,30 @@ $activePage = 'dashboard';
 
 <?php include ('header.php')?>
 
+<div style="border: black 2.5px solid; width: 20%; height: 500px; margin-left: 5%; float: left">
+
+    <div style="width: 100%; height: 50%;border-bottom: black 2.5px solid">
+        <img src="imgs/icons/category.png" style="width: 100%; height: 100%; display: flex; justify-content: center;">
+    </div>
+    <h2>Categories</h2>
+
+</div><div style="border: black 2.5px solid; width: 20%; height: 500px; margin-left: 5%; float: left">
+
+    <div style="width: 100%; height: 50%;border-bottom: black 2.5px solid">
+        <img src="imgs/icons/category.png" style="width: 100%; height: 100%; display: flex; justify-content: center;">
+    </div>
+    <h2>Categories</h2>
+
+</div><div style="border: black 2.5px solid; width: 20%; height: 500px; margin-left: 5%; float: left">
+
+    <div style="width: 100%; height: 50%;border-bottom: black 2.5px solid">
+        <img src="imgs/icons/category.png" style="width: 100%; height: 100%; display: flex; justify-content: center;">
+    </div>
+    <h2>Categories</h2>
+
+</div>
+
+
 <!--See this website for the side navBar https://www.codeply.com/go/w1AMD1EY3c-->
 
 </body>
