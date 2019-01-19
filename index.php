@@ -17,6 +17,41 @@ $activepage='home';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--Design-->
     <link rel="stylesheet" href="style/style.css" type="text/css">
+    <script>
+        $(function () {
+            $("#search").keyup(function () {
+                $s = $(this).val();
+                if($s == ''){
+                    $("#result").html('');
+                    $("#result").css("background-color", "#E6E6E6");
+                }
+                else {
+                    $.ajax({
+                        url: 'searchAction.php',
+                        data: {q: $s},
+                        success: function (r) {
+                            $("#result").css("background-color", "white");
+                            $("#result").html(r);
+                        }
+                    });
+                }
+            });
+            $("#search").keyup(function () {
+                $s = $(this).val();
+                if($s == '')
+                    $("#resultTwo").html('');
+                else {
+                    $.ajax({
+                        url: 'searchActionTwo.php',
+                        data: {q: $s},
+                        success: function (r) {
+                            $("#resultTwo").html(r);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -75,6 +110,9 @@ $activepage='home';
             </div>
         </div>
         <div class="row product-list">
+            <div class="col-sm-12" id="resultTwo">
+
+            </div>
             <div class="col-sm-12">
                 <h3 style="border-bottom: 1px solid #ddd; padding-bottom: 5px;">Latest Product</h3>
             </div>

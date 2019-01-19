@@ -16,6 +16,24 @@ $activepage='aboutus';
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style/style.css" type="text/css">
+    <script>
+        $(function () {
+            $("#search").keyup(function () {
+                $s = $(this).val();
+                if($s == '')
+                    $("#result").html('');
+                else {
+                    $.ajax({
+                        url: 'searchAction.php',
+                        data: {q: $s},
+                        success: function (r) {
+                            $("#result").html(r);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>

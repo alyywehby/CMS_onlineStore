@@ -1,5 +1,5 @@
 <?php
-$activepage='contactus';
+$activepage='product';
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +15,7 @@ $activepage='contactus';
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Design-->
     <link rel="stylesheet" href="style/style.css" type="text/css">
     <script>
         $(function () {
@@ -40,17 +41,29 @@ $activepage='contactus';
 
 <?php include_once 'includers/header.php';?>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-9" style="height: 500px; background-color: aqua">
-            <h1>ContactUs Page Col-xs-9</h1>
-        </div>
-
-        <div class="col-md-3" style="height: 500px; background-color: blue">
-            <h1>ContactUs Page Col-xs-3</h1>
-        </div>
-    </div>
-</div>
+<?php
+$id=$_GET["q"];
+require 'config.php';
+$query = "SELECT * FROM products WHERE productID=$id";
+$result = mysqli_query($link,$query);
+if(!$result)
+    echo mysqli_error($link);
+else{
+    while ($row = mysqli_fetch_array($result)){
+        echo "ProductName: <br>".$row["productName"];
+        echo "<hr>";
+        echo "ProductDescription: <br>".$row["productDescription"];
+        echo "<hr>";
+        echo "ProductPrice: <br>".$row["productPrice"];
+        echo "<hr>";
+        echo "ProductQuantity: <br>".$row["productQuantity"];
+        echo "<hr>";
+        echo "ProductImage: <br>";
+        echo "<img src='admin/".$row["productImage"]."'>";
+        echo "<hr>";
+    }
+}
+?>
 
 <?php include_once 'includers/footer.php';?>
 </body>
