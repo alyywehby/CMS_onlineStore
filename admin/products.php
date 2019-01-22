@@ -78,20 +78,6 @@ $activePage = 'products';
                 ?>
             </div>
         </div>
-
-<!--        <div class="col-sm-12">-->
-<!--            <div style="padding: 10px;">-->
-<!--                <h2>Add Products</h2>-->
-<!--                <form method="post" action="newCategory.php">-->
-<!--                    <div class="form-group" style="padding: 10px;border-left: 1px black solid; min-height: 300px">-->
-<!--                        <label for="usr">Category Name:</label>-->
-<!--                        <input type="text" class="form-control" id="" name="CategoryName">-->
-<!--                        <button type="submit" class="btn btn-default" style="margin-top: 10px">Add</button>-->
-<!--                        <button type="reset" class="btn btn-default" style="margin-top: 10px">Clear</button>-->
-<!--                    </div>-->
-<!--                </form>-->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 </div>
 
